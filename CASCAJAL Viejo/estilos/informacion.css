@@ -1,0 +1,134 @@
+*{
+	list-style: none;
+	margin:0;
+	font-family: arial;
+}
+
+body{
+	background: white;
+}
+
+header{
+	width: 102%;
+	height: 8em;
+	/*background: -webkit-gradient(
+		linear, left top, right top,
+		color-stop(10%, #f62e), color-stop(50%, red),
+		color-stop(75%, #f62806));
+	background: -moz-gradient(
+		left, #f62e 10%, red 50%, #f62806 75%);*/
+	position: relative;
+}
+header img{
+	position: absolute;
+	float: left;
+	width: 161px;
+}
+
+#titulo{
+	font-size: 20px;
+	
+}
+
+header a img{
+	width: 50px;
+	position: relative;
+	float: right;
+	margin-right: 37px;
+	margin-top: -58px;
+	background: white;
+	border-radius: 100%;
+}
+header a img:hover{
+	background: blue;
+	
+}
+nav{
+	background: #c50c26;
+	width: 102%;
+	/*padding: 10px;*/
+}
+
+nav li{
+	display: inline-block;
+	background: #c50c26;
+	padding: 10px;
+	width: 100px;
+	height: 30px;
+}
+nav li a{
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+}
+.enlace:hover{
+	background: orange;
+}
+
+.enlace:active{
+	background: gray;
+}
+
+section{
+	position: relative;
+	width: 92%;
+	height: 1000px;
+	background: #fafcfc;
+	border-radius: 1.5%;
+	position: relative;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	overflow: scroll;
+}
+/*seccion principal de información de los directivos 
+del consejo comunal*/
+
+.princi{
+	position:relative;
+	width: 480px;
+	height: 700px;
+	padding:20px;
+	display: inline-block;
+}
+
+.princi p{
+	text-align: justify;
+}
+
+#contac{
+	width: 300px;
+	position: relative;
+	display: inline-block;
+	height: 300px;
+	float: left;
+	margin-left: 60px;
+}
+
+#contac h1{
+	float: left;
+	position: relative;
+	width: 110px;
+	height: 10px;
+	margin:10px;
+}
+
+#contac p{
+	text-align: justify;
+	width: 300px;
+	background: white;
+	padding: 13px;
+}
+
+footer{
+	width: 100%;
+	background: red;
+	position: relative;
+	height: 300px;
+	padding: 10px;
+}
+footer p{
+	width: 350px;
+	height: 50px;
+	padding: 10px;
+	color:white;
+}

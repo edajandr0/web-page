@@ -1,0 +1,173 @@
+*{
+	list-style: none;
+	margin:0;
+	font-family: arial;
+}
+
+body{
+	background: white;
+}
+
+header{
+	width: 102%;
+	height: 8em;
+	background: -webkit-gradient(
+		linear, left top, right top,
+		color-stop(10%, #f62e), color-stop(50%, red),
+		color-stop(75%, #f62806));
+	background: -moz-gradient(
+		left, #f62e 10%, red 50%, #f62806 75%);
+	position: relative;
+}
+header img{
+	position: absolute;
+	float: left;
+	width: 161px;
+}
+#titulo{
+	font-size: 20px;
+}
+
+header a img{
+	width: 50px;
+	position: relative;
+	float: right;
+	margin-right: 37px;
+	margin-top: -58px;
+	background: white;
+	border-radius: 100%;
+}
+header a img:hover{
+	background: gray;
+}
+nav{
+	background: #c50c26;
+	width: 102%;
+	/*padding: 10px;*/
+}
+
+nav li{
+	display: inline-block;
+	background: #c50c26;
+	padding: 10px;
+	width: 100px;
+	height: 30px;
+}
+nav li a{
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+}
+.enlace:hover{
+	background: orange;
+}
+
+.enlace:active{
+	background: gray;
+}
+
+section{
+	width: 98%;
+	height: 1000px;
+	background: #fcfcfc;
+	border-radius: 1.5%;
+	position: relative;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+section article{
+	width: 20%;
+	height: 900px;
+	background: #eef9fb;
+	position: relative;
+	float: right;
+	border-radius: 1.5px;
+}
+section article img{
+	width: 40px;
+	position: relative;
+	float: left;
+	margin: 1em;
+	z-index: 3;
+	margin-left: 45px;
+}
+#list{
+	position: absolute;
+	margin-top: 7px;
+	padding: 19px;
+	padding-left: 49px;
+	background: #7ed6f9;
+	z-index: 1;
+}
+#caja{
+	position: absolute;
+	float: left;
+	margin-top: 50px;
+}
+.lit{
+	margin-top: 22px;
+	
+	/*float: left;*/
+}
+section article ul div li{
+	margin-top: 20px;
+	text-decoration: none;
+}
+/*incio de la tabla*/
+section p{
+	width: 74%;
+	padding: 20px;
+	text-align: justify;
+	text-indent: 1em;
+	position: relative;
+	float: left;
+}
+
+section h1{
+	position: relative;
+	float: left;
+}
+section table{
+	position: relative;
+	float: left;
+	background: #ffffffb3;
+	width: 72%;
+	height: 600px;
+	margin-top: 2em;
+	margin-left: 2em;
+	text-align: justify;
+}
+section table th{
+	background: -webkit-gradient( 
+		linear, left top, right top,
+		color-stop(15%, #ddd), color-stop(50%, gray),
+		color-stop(75%, #999));
+	background: -moz-gradient(
+		left, #ddd 15%, gray 50%, #999 75%);
+}
+#subtitu{
+	background: -webkit-gradient( 
+		linear, left top, right top,
+		color-stop(15%, gray), color-stop(50%, #666),
+		color-stop(75%, #999));
+	background: -moz-gradient(
+		left, gray 15%, #666 50%, #999 75%);
+}
+
+section table img{
+	width: 100px;
+}
+/*find de tabla*/
+footer{
+	width: 100%;
+	background: red;
+	position: relative;
+	height: 300px;
+	padding: 10px;
+}
+footer p{
+	width: 350px;
+	height: 50px;
+	padding: 10px;
+	color:white;
+}
